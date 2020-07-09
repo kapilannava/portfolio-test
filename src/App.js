@@ -7,6 +7,10 @@ import Experience from './components/Experience/Experience';
 import History from './components/History/History';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-172038517-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (
