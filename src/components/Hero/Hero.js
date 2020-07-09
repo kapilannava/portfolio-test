@@ -14,7 +14,7 @@ function Hero(){
         </div>
         <div className="description">
         I'm a web developer based in Toronto, ON who builds and designs websites, 
-        applications, and everything in between. 
+        applications, and interactive experiences. 
         <p className="social-icons">
         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kapilan-navaratnam-263368117/">
         <FaLinkedin size='1.5em' style={{ marginRight: "3%", color: "#fff", position: "relative"}} />

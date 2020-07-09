@@ -11,9 +11,9 @@ function Experience(){
             </div>
         <div className="description-experience">
        <p> Hello! I'm Kapilan, a web developer based in Toronto, ON.</p>
-<p>I make things that live on the internet, whether that be websites, 
-    applications, or anything in between. My goal is to always build 
-    products that provide pixel-perfect, performant experiences.
+<p>I make things that live on the internet, like websites, 
+    applications, and graphics. My goal is to always build 
+    products that provide the end-user with smooth, user-friendly experiences.
 </p>
 Here are a few technologies I've been working with recently:       
         </div>
