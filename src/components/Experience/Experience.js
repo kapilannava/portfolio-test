@@ -11,9 +11,11 @@ function Experience(){
             </div>
         <div className="description-experience">
        <p> Hello! I'm Kapilan, a web developer based in Toronto, ON.</p>
-<p>I make things that live on the internet, like websites, 
-    applications, and graphics. My goal is to always build 
-    products that provide the end-user with smooth, user-friendly experiences.
+<p></p>
+
+<p>I completed my degree from <a className="yorku" target="_blank" href="https://www.yorku.ca/index.html">York University</a> with a B.A. of 
+Information Technology. I joined the marketing department at <a className="syom" target="_blank" href="https://www.syomortgage.com/">Shop Your Own Mortgage</a>, where I worked
+    with a great team on many meaningful projects.
 </p>
 Here are a few technologies I've been working with recently:       
         </div>
