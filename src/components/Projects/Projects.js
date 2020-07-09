@@ -18,7 +18,7 @@ function Projects(){
             <Col xs={12} md={4}>
             <Card>
             <a href="https://kapilannava.github.io/recipe-api/"> 
-  <Card.Img variant="top" src={Recipe} />
+  <Card.Img variant="top" src={Recipe} alt="React API Project"/>
   </a>
   <Card.Body>
     <Card.Title> REST API</Card.Title>
@@ -39,7 +39,7 @@ function Projects(){
 
                 <Col xs={12} md={4}>
                 <Card>
-                <a href="https://todaycanada.ca/">  <Card.Img variant="top" src={TodayCanada} />
+                <a href="https://todaycanada.ca/">  <Card.Img variant="top" src={TodayCanada} alt="GatsbyJS Project" />
 </a>
   <Card.Body>
     <Card.Title> GatsbyJS Blog </Card.Title>
@@ -60,7 +60,7 @@ function Projects(){
                 <Col xs={12} md={4}>
                 <Card>
                 <a href="https://limitless-oasis-19234.herokuapp.com/"> 
-  <Card.Img variant="top" src={Todo} />
+  <Card.Img variant="top" src={Todo} alt="Python and Django Project deployed on Heroku" />
   </a>
   <Card.Body>
     <Card.Title> Python Django App</Card.Title>
