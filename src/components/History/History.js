@@ -65,7 +65,7 @@ function History(){
             <li>Recommends platforms based on marketing / business goals</li>
             <li>Collaborates with marketing team and art directors and other site stakeholders to implement designs</li>
             <li>Makes SEO recommendations and implements optimization strategies</li>
-            <li>Creates, reviews, and consults on user flows, information architecture, interaction design, layout, and visual presentation</li>
+            <li>Creates and consults on user flows, information architecture, interaction design, layout, and visual presentation</li>
 </p>
         </Tab.Pane>
       </Tab.Content>
