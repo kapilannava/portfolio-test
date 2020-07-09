@@ -2,7 +2,6 @@ import React from 'react';
 import Particles from 'react-particles-js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Head from 'next/head';
 import Hero from './components/Hero/Hero';
 import Experience from './components/Experience/Experience';
 import History from './components/History/History';
@@ -17,13 +16,6 @@ function App() {
   return (
     <div className="App">
     <>
-	<Head>
-		<title>Kapilan Navaratnam | Web Developer, Toronto ON</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="description" 
-		content="Kapilan Navaratnam, a web developer based in Toronto, Ontario. 
-		Specializes in coding HTML, CSS, JavaScript, Node, React, PHP, MySQL" />
-	</Head>
     <Particles className="particles"
     params={{
 	    "particles": {
