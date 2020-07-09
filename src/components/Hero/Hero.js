@@ -16,15 +16,14 @@ function Hero(){
         I'm a web developer based in Toronto, ON who builds and designs websites, 
         applications, and everything in between. 
         <p className="social-icons">
-        <a target="_blank" rel="noopener noreferrer" 
-href="https://www.linkedin.com/in/kapilan-navaratnam-263368117/">
-        <FaLinkedin size='1.5em' style={{ marginRight: "3%", color: "#fff"}} />
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kapilan-navaratnam-263368117/">
+        <FaLinkedin size='1.5em' style={{ marginRight: "3%", color: "#fff", position: "relative"}} />
 </a>
-<a target="_blank" rel="noopener noreferrer" 
-href="https://github.com/kapilannava/">
- <FaGithub size='1.5em' style={{ color: "#fff" }}/>   
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/kapilannava/">
+ <FaGithub size='1.5em' style={{ color: "#fff", position: "relative" }}/>   
  </a>   
 </p>
+
         </div>
 <Link className="learn-more" to="experience" smooth={true} duration={500}>Learn more about me ↓</Link>
         </div>
