@@ -28,6 +28,10 @@
     border: 1px solid;
 }
 
+.card-body{
+    text-align: center;
+}
+
 .card-title{
     font-weight: bold;
 }
