@@ -11,7 +11,7 @@ function Contact(){
         Get in Touch
         </div>
         <p className="title-description">I'm currently looking for new opportunities, and 
-            my inbox is always open. If you have any inquiries, you can e-mail me at:
+            my inbox is always open. If you have any job opportunities or business inquiries, you can e-mail me at:
             </p>
             <p className="title-description">
             <a href="mailto:kapilannava@gmail.com" className="email-text">
