@@ -16,7 +16,7 @@ function Projects(){
         <Container>
             <Row>
             <Col xs={12} md={4}>
-            <Card style={{ width: '18rem' }}>
+            <Card>
             <a href="https://kapilannava.github.io/recipe-api/"> 
   <Card.Img variant="top" src={Recipe} />
   </a>
@@ -28,7 +28,7 @@ function Projects(){
   </Card.Body>
   <Card.Footer>
     <a target="_blank" rel="noopener noreferrer" href="https://github.com/kapilannava/recipe-api">
-    <FaGithub  size='1.75em' style={{marginRight: '70px', color: '#fff'}}/>
+    <FaGithub  size='1.75em' style={{marginRight: '80%', color: '#fff'}}/>
     </a>
     <a target="_blank" rel="noopener noreferrer" href="https://kapilannava.github.io/recipe-api/">
     <FaExternalLinkAlt  size='1.75em' style={{color: '#fff'}}/>
@@ -38,7 +38,7 @@ function Projects(){
                 </Col>
 
                 <Col xs={12} md={4}>
-                <Card style={{ width: '18rem' }}>
+                <Card>
                 <a href="https://todaycanada.ca/">  <Card.Img variant="top" src={TodayCanada} />
 </a>
   <Card.Body>
@@ -49,7 +49,7 @@ function Projects(){
   </Card.Body>
   <Card.Footer>
     <a target="_blank" rel="noopener noreferrer" href="https://github.com/kapilannava/todaycanada">
-    <FaGithub  size='1.75em' style={{marginRight: '70px', color: '#fff'}} />
+    <FaGithub  size='1.75em' style={{marginRight: '80%', color: '#fff'}} />
     </a>
     <a target="_blank" rel="noopener noreferrer" href="https://todaycanada.ca/">
     <FaExternalLinkAlt  size='1.75em' style={{color: '#fff'}} />
@@ -58,7 +58,7 @@ function Projects(){
     </Card>
                 </Col>
                 <Col xs={12} md={4}>
-                <Card style={{ width: '18rem' }}>
+                <Card>
                 <a href="https://limitless-oasis-19234.herokuapp.com/"> 
   <Card.Img variant="top" src={Todo} />
   </a>
@@ -70,7 +70,7 @@ function Projects(){
   </Card.Body>
   <Card.Footer>
     <a target="_blank" rel="noopener noreferrer" href="https://github.com/kapilannava/python-poll">
-    <FaGithub size='1.75em' style={{marginRight: '70px', color: '#fff'}} />
+    <FaGithub size='1.75em' style={{marginRight: '80%', color: '#fff'}} />
     </a>
     <a target="_blank" rel="noopener noreferrer" href="https://limitless-oasis-19234.herokuapp.com/">
     <FaExternalLinkAlt  size='1.75em' style={{color: '#fff'}} />
