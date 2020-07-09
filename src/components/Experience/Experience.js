@@ -13,8 +13,8 @@ function Experience(){
        <p> Hello! I'm Kapilan, a web developer based in Toronto, ON.</p>
 <p></p>
 
-<p>I completed my degree from <a className="yorku" target="_blank" href="https://www.yorku.ca/index.html">York University</a> with a B.A. of 
-Information Technology. I joined the marketing department at <a className="syom" target="_blank" href="https://www.syomortgage.com/">Shop Your Own Mortgage</a>, where I worked
+<p>I completed my degree from <a className="yorku" rel="noopener noreferrer" target="_blank" href="https://www.yorku.ca/index.html">York University</a> with a B.A. of 
+Information Technology. I joined the marketing department at <a className="syom" rel="noopener noreferrer" target="_blank" href="https://www.syomortgage.com/">Shop Your Own Mortgage</a>, where I worked
     with a great team on many meaningful projects.
 </p>
 Here are a few technologies I've been working with recently:       
