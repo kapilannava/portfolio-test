@@ -7,8 +7,6 @@ import Experience from './components/Experience/Experience';
 import History from './components/History/History';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
-import ReactGA from 'react-ga';
-
 
 function App() {
   return (
