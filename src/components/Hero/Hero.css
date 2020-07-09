@@ -21,7 +21,7 @@
     width: 50%;
     font-size: 25px;
     color: #D4D1D1;
-    padding-bottom: 50px;
+    padding-bottom: 15px;
 }
 
 .learn-more{
@@ -82,4 +82,8 @@
         background-color: white;
         color: black !important;
     }
+}
+
+.social-icons{
+    margin-top: 15px;
 }

@@ -17,7 +17,6 @@ function Experience(){
 </p>
 Here are a few technologies I've been working with recently:       
         </div>
-        <div className="container">
         <h3 className="tags-one">
         <Badge pill variant="light">HTML</Badge>{' '}
         <Badge pill variant="light">CSS</Badge>{' '}
@@ -32,9 +31,8 @@ Here are a few technologies I've been working with recently:
         <Badge pill variant="light">MySQL</Badge>{' '}
         <Badge pill variant="light">WordPress</Badge>{' '}
         </h3>
-        <Link className="learn-more" to="history" smooth={true} duration={500}>Work Experience ↓</Link>
+        <div className="work-experience-btn"><Link className="learn-more" to="history" smooth={true} duration={500}>Work Experience ↓</Link></div>
 </div>
-        </div>
         
     )
 }

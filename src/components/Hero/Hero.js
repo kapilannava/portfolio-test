@@ -1,6 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import { Link } from 'react-scroll';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 function Hero(){
     return(
@@ -13,9 +14,11 @@ function Hero(){
         </div>
         <div className="description">
         I'm a web developer based in Toronto, ON who builds and designs websites, 
-        applications, and everything in between.        
+        applications, and everything in between. 
+        <p className="social-icons"><FaLinkedin size='1.5em' style={{ marginRight: "3%"}}/> <FaGithub size='1.5em' />      
+</p>
         </div>
-        <Link className="learn-more" to="experience" smooth={true} duration={500}>Learn more about me ↓</Link>
+<Link className="learn-more" to="experience" smooth={true} duration={500}>Learn more about me ↓</Link>
         </div>
     )
 }
