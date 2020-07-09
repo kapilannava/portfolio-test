@@ -1,24 +1,48 @@
 import React from 'react';
-import logo from './logo.svg';
+import Particles from 'react-particles-js';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Hero from './components/Hero/Hero';
+import Experience from './components/Experience/Experience';
+import History from './components/History/History';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-172038517-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+	
+    <Particles className="particles"
+    params={{
+	    "particles": {
+	        "number": {
+	            "value": 50
+	        },
+	        "size": {
+	            "value": 3
+	        }
+	    },
+	    "interactivity": {
+	        "events": {
+	            "onhover": {
+	                "enable": true,
+	                "mode": "repulse"
+	            }
+	        }
+	    }
+	}} />
+      {<Hero />}
+      {<Experience />}
+      {<History />}
+	  {<Projects />}
+	  {<Contact />}
+
+</>
     </div>
   );
 }

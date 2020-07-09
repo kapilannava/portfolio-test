@@ -1,0 +1,82 @@
+@media only screen and (min-width: 601px) {
+.title-contact{
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.title-description{
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+    margin: 0 100px 0 100px;
+}
+
+.contact-button:hover{
+    color: black;
+}
+.contact-button-style{
+    border: 2px solid white ;
+    background-color: #ffffff00;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+}
+@media only screen and (max-width: 600px) {
+    .title-contact{
+        font-size: 50px;
+        color: #fff;
+        padding-bottom: 20px;
+    }
+    
+    .title-description{
+        color: #fff;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .contact-button{
+        margin-bottom: 100px;
+    }
+    .contact-button-style{
+        border: 2px solid white ;
+        background-color: #ffffff00;
+        border-radius: 50px;
+        font-size: 15px;
+        padding: 10px 10px 10px 10px;
+        font-weight: bold;
+        position: relative;
+        cursor: pointer;
+        margin-bottom: 100px;
+    }
+    }
+
+
+.contact-me-text{
+    color: white;
+}
+
+
+
+.contact-button-style:hover{
+    background-color: #0072b1;
+}
+
+.email-text{
+    color: white;
+}
+.email-text:hover{
+    color: white;
+}
