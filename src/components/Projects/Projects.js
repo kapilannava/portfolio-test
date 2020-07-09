@@ -44,7 +44,8 @@ function Projects(){
   <Card.Body>
     <Card.Title> GatsbyJS Blog </Card.Title>
     <Card.Text>
-    An online blog about Canadian News using GatsbyJS, React, GraphQL, and SASS.  </Card.Text>
+    An Canadian News blog using GatsbyJS, React, GraphQL, and SASS.
+    </Card.Text>
   </Card.Body>
   <Card.Footer>
     <a target="_blank" rel="noopener noreferrer" href="https://github.com/kapilannava/todaycanada">
