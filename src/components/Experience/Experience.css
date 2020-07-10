@@ -73,10 +73,10 @@
         }
 }
 
-.yorku{
+.yorku, .yorku:hover{
     color: #e31837;
 }
 
-.syom{
+.syom, .syom:hover{
     color: rgb(255, 78, 0)
 }
